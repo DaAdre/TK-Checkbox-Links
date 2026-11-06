@@ -1,0 +1,6 @@
+en:
+  theme_metadata:
+    description: "Verwandelt bestimmte Woerter in Formular-/Checkbox-Beschriftungen (z. B. das Pflicht-Benutzerfeld bei der Registrierung) in anklickbare Links - rein kosmetisch, ruehrt nie das Eingabeelement selbst an."
+    settings:
+      link_rules: "Ein Eintrag pro Zeile: Suchwort,Ziel-URL. Nur Labels, die ALLE konfigurierten Woerter enthalten, werden verlinkt."
+      open_in_new_tab: "Links in neuem Tab oeffnen (damit das halb ausgefuellte Formular nicht verloren geht)."

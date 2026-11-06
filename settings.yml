@@ -1,0 +1,19 @@
+# =============================================================================
+#  TK Checkbox-Links
+#  Rein kosmetisch: verwandelt bestimmte Woerter in Checkbox-/Feld-
+#  Beschriftungen (z. B. dem Pflicht-Benutzerfeld bei der Registrierung)
+#  in anklickbare Links. Ruehrt nie ein Eingabeelement selbst an - die
+#  Checkbox-Pflicht/Validierung bleibt unangetastet.
+# =============================================================================
+
+# Ein Eintrag pro Zeile: "Suchwort,Ziel-URL". Nur Labels, die ALLE
+# konfigurierten Woerter gleichzeitig enthalten, werden angefasst - das
+# verhindert versehentliche Treffer an unerwarteten Stellen.
+link_rules:
+  type: list
+  list_type: compact
+  default: "Datenschutzerklärung,/privacy|Nutzungsbedingungen,/tos"
+
+open_in_new_tab:
+  type: bool
+  default: true

@@ -1,0 +1,10 @@
+{
+  "name": "TK Checkbox-Links",
+  "about_url": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966",
+  "license_url": "https://opensource.org/licenses/MIT",
+  "authors": "Adrian Zillner",
+  "theme_version": "1.0.1",
+  "minimum_discourse_version": "3.4.0",
+  "component": true,
+  "assets": {}
+}
